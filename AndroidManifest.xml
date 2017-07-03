@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.clubsofda_iict">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logofinal"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PressClub" />
+        <activity
+            android:name=".PressInfo"
+            android:label="@string/title_activity_press_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PressContact"
+            android:label="@string/title_activity_press_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PressGallery"
+            android:label="@string/title_activity_press_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicInfo"
+            android:label="@string/title_activity_music_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicClub2"
+            android:label="@string/title_activity_music_club2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicContact"
+            android:label="@string/title_activity_music_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MusicGallery"
+            android:label="@string/title_activity_music_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtg"
+            android:label="@string/title_activity_dtg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtgInfo"
+            android:label="@string/title_activity_dtg_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtgContact"
+            android:label="@string/title_activity_dtg_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtgGallery"
+            android:label="@string/title_activity_dtg_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProgrammingClub"
+            android:label="@string/title_activity_programming_club"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".proInfo"
+            android:label="@string/title_activity_pro_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".proContact"
+            android:label="@string/title_activity_pro_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".proGallery"
+            android:label="@string/title_activity_pro_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeadRush"
+            android:label="@string/title_activity_head_rush"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeadRushInfo"
+            android:label="@string/title_activity_head_rush_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeadRushContact"
+            android:label="@string/title_activity_head_rush_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeadRushGallery"
+            android:label="@string/title_activity_head_rush_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".radioClub"
+            android:label="@string/title_activity_radio_club"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".radioInfo"
+            android:label="@string/title_activity_radio_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".radioContact"
+            android:label="@string/title_activity_radio_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".radioGallery"
+            android:label="@string/title_activity_radio_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sambhav"
+            android:label="@string/title_activity_sambhav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SambhavInfo"
+            android:label="@string/title_activity_sambhav_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SambhavContact"
+            android:label="@string/title_activity_sambhav_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SambhavGallery"
+            android:label="@string/title_activity_sambhav_gallery"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
